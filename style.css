@@ -1,0 +1,97 @@
+.container{
+  width: 100%;
+  font-size:27px;
+  height: 36px;
+}
+
+.container ul li{
+  list-style-type: none;
+  text-align: center;
+}
+.header{
+  display: block;
+  float: left;
+  width: 100%
+
+}
+.header .logo{
+  position: relative;
+  left: auto;
+  width: 370px;
+  margin: 25px auto;
+
+}
+.header .menu{
+  display: inline-block;
+  width: 100%;
+  background-color:#9e1f16;
+}
+.header .menu ul {
+  display: flex;
+}
+.header .menu ul li{
+  flex: auto;
+  text-align: center;
+}
+.header .menu ul li a{
+  padding: 0 10px 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+.header .menu  ul li a:hover{
+  text-decoration: underline ;
+}
+table tr td img{
+  width: 170px;
+  height: 120px;
+  border-radius: 4px;
+}
+abbr{
+  text-decoration: none;
+  cursor: default;
+}
+table tr a{
+  font-size:27px;
+  font-weight: 600;
+  color: #4682b4;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+table tr a:hover{
+  text-decoration: underline;
+
+}
+table,tr{
+  width: 100%;
+  padding: 9px;
+  border: 2px solid black;
+  border-radius: 4px
+}
+article img{
+  width: 100%;
+  cursor:default;
+ }
+article{
+      column-count: 3;
+      text-align: justify;
+}
+article p:first-of-type:first-letter{
+      font-size: 3em;
+      float: left;
+      line-height: 50%;
+      margin: 0.1em 0.1em 0.1em -0.05em
+
+}
+footer{
+  position: absolute;
+  right:0%;
+  bottom: auto;
+}
+h2{
+  padding-left: 1em;
+  color: #bf2434;
+  font-family: monospace;
+  font-size: 25px;
+}
